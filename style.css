@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    background-image: url(asets/philipp-pilz-iQRKBNKyRpo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#clock{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(207, 201, 201);
+    backdrop-filter: blur(3px);
+    padding: 0px 20px;
+}
